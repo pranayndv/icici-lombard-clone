@@ -83,7 +83,7 @@ const Faq = () => {
       </div>
 
       <p className="text-sm md:text-base mt-10">
-        Before buying car insurance online, read the policy details and fine print, and ask questions to clarify anything you need help understanding. Regularly reviewing your car insurance policy can help ensure that it continues to meet your needs and that you're not overpaying for coverage you don't need.
+        Before buying car insurance online, read the policy details and fine print, and ask questions to clarify anything you need help understanding. Regularly reviewing your car insurance policy can help ensure that it continues to meet your needs and that you&apos;re not overpaying for coverage you don&apos;t need.
       </p>
     </div>
   );
