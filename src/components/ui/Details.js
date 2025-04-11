@@ -1,5 +1,4 @@
 import React from 'react'
-import group from "../../../public/svgs/Group.svg"
 import Image from 'next/image'
 
 const Details = () => {
