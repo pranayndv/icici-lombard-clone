@@ -8,10 +8,11 @@ import Image from 'next/image';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
-      <div className="top-navbar bg-[#F8F6F6] text-[13px] flex md:justify-between items-center md:px-10 py-1">
+    <div className='relative'>
+      <div className="top-navbar  bg-[#F8F6F6] text-[13px] flex md:justify-between items-center md:px-10 py-1">
         <div className="left py-1 flex space-x-4 text-[13px]">
           <div className='flex items-center px-3 space-x-3'>
           <svg width="30" height="18" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,12 +34,47 @@ const Navbar = () => {
             </span>
           </div>
         </div>
+
+        
+        <button
+            className="flex items-center focus:outline-none"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            <svg
+              width="10"
+              height="7"
+              viewBox="0 0 10 7"
+              className={`fill-[#000000] transition-transform duration-200 transform ${
+                isOpen ? 'rotate-90' : '-rotate-90'
+              }`}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M0 1.108L3.898 5.022L5.003 6.128L6.106 5.021L10 1.108L9.957 1.066L8.894 0.001L5.003 3.911L1.104 0L0 1.108Z"
+                fill="#000000"
+              />
+            </svg>
+          </button>
+
+
+        
         <ul className="right hidden md:flex space-x-4 text-sm ">
            <li className='px-1'><Dropdown name="Renewals" color='black' /></li>
            <li className='px-1'><Dropdown name="Support" color='black' /></li>
            <li className='px-1'><Dropdown name="Info Centre" color='black' /></li>
            <li className='px-1'><Dropdown name="Investor Relations" color='black' /></li>
         </ul>
+
+        {isOpen && (
+        <ul className="right md:hidden flex flex-col space-y-4 text-sm bg-[#F8F6F6] absolute w-full mt-[10rem] z-40 px-3">
+           <li className='px-1'><Dropdown name="Renewals" color='black' /></li>
+           <li className='px-1'><Dropdown name="Support" color='black' /></li>
+           <li className='px-1'><Dropdown name="Info Centre" color='black' /></li>
+           <li className='px-1'><Dropdown name="Investor Relations" color='black' /></li>
+        </ul>
+        )}
 
       </div>
     <div className="bottom-navbar bg-gradient-to-b from-[#F17D01] to-[#AE2120] py-3 px-6 text-white">
