@@ -37,7 +37,7 @@ const Navbar = () => {
 
         
         <button
-            className="flex items-center px-1"
+            className="flex items-center px-1 md:hidden"
             onClick={() => setIsOpen(!isOpen)}
           >
             <svg
