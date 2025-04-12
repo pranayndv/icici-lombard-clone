@@ -12,11 +12,11 @@ const Footer = () => {
       <div className='flex flex-wrap items-center md:px-8 py-4 md:space-x-6 space-x-2'>
         <a href="#">Home</a>
         <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path id="Fill 1" fill-rule="evenodd" clip-rule="evenodd" d="M0 8.89449L1.08468 10L4.9165 6.10134L6 4.99704L4.91532 3.89371L1.08468 0L1.04332 0.0434523L0.00118157 1.1055L3.82946 4.99704L0 8.89449Z" fill="#282828"/>
+        <path id="Fill 1" fillRule="evenodd" clipRule="evenodd" d="M0 8.89449L1.08468 10L4.9165 6.10134L6 4.99704L4.91532 3.89371L1.08468 0L1.04332 0.0434523L0.00118157 1.1055L3.82946 4.99704L0 8.89449Z" fill="#282828"/>
         </svg>
         <a href="#">Motor Insurance </a>
         <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path id="Fill 1" fill-rule="evenodd" clip-rule="evenodd" d="M0 8.89449L1.08468 10L4.9165 6.10134L6 4.99704L4.91532 3.89371L1.08468 0L1.04332 0.0434523L0.00118157 1.1055L3.82946 4.99704L0 8.89449Z" fill="#282828"/>
+        <path id="Fill 1" fillRule="evenodd" clipRule="evenodd" d="M0 8.89449L1.08468 10L4.9165 6.10134L6 4.99704L4.91532 3.89371L1.08468 0L1.04332 0.0434523L0.00118157 1.1055L3.82946 4.99704L0 8.89449Z" fill="#282828"/>
         </svg>
         <a href="#" className='text-[#707070]'>Car Insurance</a>
       </div>

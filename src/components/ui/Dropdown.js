@@ -3,7 +3,19 @@ import React, { useState, useRef, useEffect } from 'react';
 
 const Dropdown = ({ name, color = 'white' }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(false);
   const dropdownRef = useRef();
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsDesktop(window.innerWidth >= 1024);
+    };
+
+    checkScreenSize();
+    window.addEventListener('resize', checkScreenSize);
+
+    return () => window.removeEventListener('resize', checkScreenSize);
+  }, []);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -15,11 +27,22 @@ const Dropdown = ({ name, color = 'white' }) => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  const handleClick = () => {
+    if (!isDesktop) {
+      setIsOpen(!isOpen);
+    }
+  };
+
   return (
-    <div className="relative " ref={dropdownRef}>
+    <div
+      className="relative"
+      ref={dropdownRef}
+      onMouseEnter={() => isDesktop && setIsOpen(true)}
+      onMouseLeave={() => isDesktop && setIsOpen(false)}
+    >
       <button
         className="flex items-center space-x-2 focus:outline-none"
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={handleClick}
       >
         <span>{name}</span>
         <svg
@@ -40,7 +63,7 @@ const Dropdown = ({ name, color = 'white' }) => {
         </svg>
       </button>
       {isOpen && (
-        <ul className="absolute mt-2 bg-white text-black rounded shadow-md z-50 md:w-48 w-[95vw] ml-[-1.3rem]">
+        <ul className="absolute mt-2 bg-white text-black rounded shadow-md z-50 lg:w-48 w-[95vw] ml-[-1.3rem]">
           <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Option 1</li>
           <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Option 2</li>
           <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Option 3</li>

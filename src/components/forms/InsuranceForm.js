@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const InsuranceForm = () => {
   return (
     <div className='flex  flex-col justify-center items-center xl:w-[50%] py-10 '>

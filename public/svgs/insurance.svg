@@ -53,44 +53,44 @@
 </g>
 <defs>
 <radialGradient id="paint0_radial_1_395" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(124.135 83.8116) rotate(89.13) scale(6.1186 6.42454)">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="#C3C7C6"/>
+<stop stopColor="white"/>
+<stop offset="1" stopColor="#C3C7C6"/>
 </radialGradient>
 <radialGradient id="paint1_radial_1_395" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-3674.77 1202.45) rotate(180) scale(6.1186 6.11861)">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="#C3C7C6"/>
+<stop stopColor="white"/>
+<stop offset="1" stopColor="#C3C7C6"/>
 </radialGradient>
 <linearGradient id="paint2_linear_1_395" x1="72.256" y1="152.534" x2="69.0703" y2="152.534" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="white"/>
+<stop stopColor="white"/>
+<stop offset="1" stopColor="white"/>
 </linearGradient>
 <linearGradient id="paint3_linear_1_395" x1="71.2532" y1="71.6679" x2="67.9102" y2="71.6679" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="white"/>
+<stop stopColor="white"/>
+<stop offset="1" stopColor="white"/>
 </linearGradient>
 <linearGradient id="paint4_linear_1_395" x1="90.9754" y1="95.5421" x2="89.5781" y2="95.5421" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="white"/>
+<stop stopColor="white"/>
+<stop offset="1" stopColor="white"/>
 </linearGradient>
 <linearGradient id="paint5_linear_1_395" x1="90.1949" y1="95.5565" x2="88.7976" y2="95.5565" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="white"/>
+<stop stopColor="white"/>
+<stop offset="1" stopColor="white"/>
 </linearGradient>
 <linearGradient id="paint6_linear_1_395" x1="89.4223" y1="95.5647" x2="88.0203" y2="95.5647" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="white"/>
+<stop stopColor="white"/>
+<stop offset="1" stopColor="white"/>
 </linearGradient>
 <linearGradient id="paint7_linear_1_395" x1="91.4077" y1="128.029" x2="90.1057" y2="128.029" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="white"/>
+<stop stopColor="white"/>
+<stop offset="1" stopColor="white"/>
 </linearGradient>
 <linearGradient id="paint8_linear_1_395" x1="90.6373" y1="128.038" x2="89.3401" y2="128.038" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="white"/>
+<stop stopColor="white"/>
+<stop offset="1" stopColor="white"/>
 </linearGradient>
 <linearGradient id="paint9_linear_1_395" x1="89.856" y1="128.058" x2="88.5588" y2="128.058" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="white"/>
+<stop stopColor="white"/>
+<stop offset="1" stopColor="white"/>
 </linearGradient>
 </defs>
 </svg>
