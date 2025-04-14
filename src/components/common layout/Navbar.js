@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-// import logo from "/logo.svg";
+import { Fade as Hamburger } from 'hamburger-react'
 import Link from 'next/link';
 import Dropdown from '../ui/Dropdown';
 import Image from 'next/image';
@@ -95,17 +95,34 @@ const Navbar = () => {
           {/* <img src={logo} alt="logo" className="h-8" /> */}
 
         
-          <button
-            className="lg:hidden text-white focus:outline-none"
-            onClick={() => setMenuOpen(!menuOpen)}
-          >
-         
-            <div className="space-y-1">
-              <span className="block w-6 h-0.5 bg-white rounded-md"></span>
-              <span className="block w-6 h-0.5 bg-white rounded-md"></span>
-              <span className="block w-6 h-0.5 bg-white rounded-md"></span>
-            </div>
-          </button>
+          {/* <button
+  className="lg:hidden text-white focus:outline-none"
+  onClick={() => setMenuOpen(!menuOpen)}
+>
+  {menuOpen ? (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-7 h-7 text-white"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <line x1="18" y1="6" x2="6" y2="18" />
+      <line x1="6" y1="6" x2="18" y2="18" />
+    </svg>
+  ) : (
+
+    <div className="space-y-1">
+      <span className="block w-6 h-0.5 bg-white rounded-md"></span>
+      <span className="block w-6 h-0.5 bg-white rounded-md"></span>
+      <span className="block w-6 h-0.5 bg-white rounded-md"></span>
+    </div>
+  )}
+</button> */}
+   <Hamburger toggled={menuOpen} toggle={setMenuOpen} />
         </div>
 
         
