@@ -3,8 +3,8 @@ import React from 'react'
 
 const InsuranceForm = () => {
   return (
-    <div className='flex  flex-col justify-center items-center xl:w-[50%] py-10 '>
-        <form action="" className='border border-[#C9C9C9] rounded-lg md:w-[425px]  flex flex-col justify-center items-center space-y-8 p-7 py-8 '>
+    <div className='flex  flex-col justify-center  items-center  py-10 '>
+        <form action="" className='border border-[#C9C9C9] rounded-lg md:w-[470px]  flex flex-col justify-center items-center space-y-8 p-7 py-8 '>
             <input type="text" className='rounded-md py-4 px-3 w-full border outline-none border-[#C9C9C9]' placeholder='Car registration no.' />
 
             <input type="text" className='rounded-md py-4 px-3 w-full border outline-none border-[#C9C9C9]' placeholder='Mobile no.' />

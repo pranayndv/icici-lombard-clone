@@ -18,7 +18,7 @@ import Searches from "@/app/Index/Searches";
 export default function Home() {
   return (
     <div>
-    <div className="flex  xl:flex-row  flex-col">
+    <div className="flex  xl:flex-row  flex-col xl:justify-center lg:space-x-44 max-w-[85rem] w-full mx-auto">
       <Hero />
       <InsuranceForm/>
     </div>

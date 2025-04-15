@@ -41,12 +41,12 @@ const Carousel = () => {
   };
 
   return (
-    <div className="bg-[#FFF2EB] py-10 px-4 sm:px-6 lg:px-12">
+    <div className="bg-[#FFF2EB] py-14 px-4 sm:px-6 lg:px-12">
       <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center title mb-8">
         What are the different types of car insurance policies?
       </h1>
 
-      <div className="relative max-w-6xl mx-auto bg-white rounded-xl p-6 sm:p-8 shadow-md">
+      <div className="relative max-w-7xl mx-auto bg-white rounded-xl p-6 sm:p-8 ">
       
         <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
                      <Image
@@ -54,10 +54,10 @@ const Carousel = () => {
                       alt={slides[currentIndex].title}
                       width={400}
                       height={400}
-                       className="w-full sm:w-auto rounded-lg object-contain mx-auto md:mx-0"
+                       className="w-full sm:w-auto rounded-lg object-contain mx-auto md:mx-5 "
                       />
 
-          <div className="flex-1 text-left">
+          <div className="flex-1 text-left md:px-6">
             <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2">
               {slides[currentIndex].title}
             </h2>

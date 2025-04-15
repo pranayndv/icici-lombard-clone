@@ -2,18 +2,18 @@ import React from 'react'
 
 const InsuraceTable = () => {
   return (
-    <div className='flex justify-center items-center'>
-      <div className='flex flex-col justify-center items-center my-7 md:w-2/3 px-5 md:px-0 space-y-6'>
-        <h1 className='xl:text-4xl text-xl text-center mb-4'>
+    <div className='flex justify-center items-center py-5 max-w-[90rem] mx-auto'>
+      <div className='flex flex-col justify-center items-center my-7 md:w-4/6 px-5 md:px-0 space-y-10 '>
+        <h1 className='xl:text-4xl text-xl text-center '>
           Comprehensive Car Insurance vs Third-Party Car Insurance
         </h1>
 
-        <div className="overflow-hidden rounded-md">
+        <div className="overflow-hidden rounded-md w-5/6 ">
           <table className='table-auto'>
             <thead>
               <tr className='bg-[#E1E0D1]'>
-                <th className='pl-4 pr-2 py-5 text-left rounded-tl-md border-r border-gray-300'>Comprehensive Car Insurance</th>
-                <th className='pl-4 pr-2 py-5 text-left rounded-tr-md'>Third-Party Car Insurance</th>
+                <th className='pl-4 pr-2 py-5 text-left rounded-tl-md border-r border-gray-300 w-1/2'>Comprehensive Car Insurance</th>
+                <th className='pl-4 pr-2 py-5 text-left rounded-tr-md w-1/2'>Third-Party Car Insurance</th>
               </tr>
             </thead>
             <tbody>
@@ -41,7 +41,7 @@ const InsuraceTable = () => {
           </table>
         </div>
 
-        <div className='p-5 md:pl-10 space-y-3 text-justify md:text-start'>
+        <div className='py-5  space-y-3 text-justify md:text-start max-w-[90rem] w-5/6 mx-auto'>
             <p>
             Comprehensive car insurance is a more comprehensive policy that covers not only third-party liabilities but also damage to your own vehicle. On the other hand, third-party car insurance only covers legal liabilities in case of an accident. Comprehensive car insurance also offers add-ons like zero depreciation and roadside assistance, whereas third-party insurance only includes mandatory coverage as per law.
             </p>

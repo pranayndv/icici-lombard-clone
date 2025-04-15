@@ -2,8 +2,8 @@ import React from 'react'
 
 const ProductTable = () => {
   return (
-    <div className='md:mx-24 mx-5 overflow-x-auto rounded-2xl bg-white my-12 '>
-    <table className='w-full table-auto text-left border-separate border-spacing-0'>
+    <div className=' mx-5 overflow-x-auto rounded-2xl bg-white  flex justify-center items-center mb-20 mt-14 max-w-[80rem] md:mx-auto'>
+    <table className='w-full table-auto text-left border-separate border-spacing-0 '>
       <thead>
         <tr className='bg-[rgba(225,224,209,1)] text-black'>
           <th className='px-4 py-3 border-r border-gray-300 w-1/3'>Product</th>

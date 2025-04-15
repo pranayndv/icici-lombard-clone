@@ -4,16 +4,16 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='flex md:flex-row flex-col  px-5 md:px-0 md:pl-14 pt-14'>
+    <div className='flex lg:flex-row flex-col  px-5 md:px-0  pt-14 '>
         <div className="left">
             
-            <div className='space-y-3'>
+            <div className='space-y-3 text-center lg:text-start'>
             <h1 className='text-4xl font-bold text-[#282828]'>Car insurance</h1>
             <h2 className='text-2xl '>Prices starting at just ₹2,094/yr</h2>
             <p className='text-[#6C6C6C] text-sm'>This amount refers to the TP rates only</p>
             </div>
 
-            <svg className="my-5" width="95" height="1" viewBox="0 0 95 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="my-5 hidden md:inline" width="95" height="1" viewBox="0 0 95 1" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="0.5" x2="95" y2="0.5" stroke="url(#paint0_linear_1_145)"/>
             <defs>
             <linearGradient id="paint0_linear_1_145" x1="95" y1="2.13822" x2="0" y2="2.13822" gradientUnits="userSpaceOnUse">
@@ -23,9 +23,10 @@ const Hero = () => {
             </defs>
             </svg>
 
-            <div>
+            <div className='flex md:flex-row flex-col  justify-center items-center'>
+            <div >
 
-                <div className='flex rounded-l-md items-center space-x-4 py-2 px-4 mt-5 bg-gradient-to-r from-[#FFF2EB] via-[#FFF7F2] to-white'>
+                <div className='flex rounded-l-md items-center space-x-4 py-2 pl-4 pr-8 mt-5 bg-gradient-to-r from-[#FFF2EB] via-[#FFF7F2] to-white'>
                     <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6.14159 4.29642L4.20703 4.16211L4.33184 6.10602C4.38038 6.28274 4.51906 6.42411 4.6924 6.46652L5.71169 6.73514C5.80183 6.75634 5.88504 6.80582 5.94744 6.87651L11.3698 12.7789L12.6733 11.45L6.9806 5.85861C6.92512 5.80206 6.88352 5.73844 6.86272 5.66775L6.48829 4.62158C6.43282 4.46607 6.30801 4.3459 6.14853 4.30348L6.14159 4.29642Z" fill="#EC6625"/>
                     <path d="M16.0426 19.2707L19.0335 16.2217C19.514 15.7318 20.2984 15.7318 20.7789 16.2217L29.1141 24.7189C30.1584 25.7835 30.1535 27.508 29.1141 28.5676L28.1629 29.5373C27.1185 30.602 25.427 30.597 24.3876 29.5373L16.0524 21.0401C15.5719 20.5503 15.5719 19.7505 16.0524 19.2607L16.0426 19.2707Z" stroke="#EC6625" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -34,14 +35,14 @@ const Hero = () => {
                     </svg>
                     <span>Doorstep Cashless RepairsH</span>
                     <svg width="36" height="14" viewBox="0 0 36 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 0H36L32.25 7L36 14H0L3.75 7L0 0Z" fill="url(#paint0_linear_1_1380)"/>
-<path d="M7.04644 10.1328V3.78781H8.09044L11.5374 8.17081H11.2944V3.78781H12.5994V10.1328H11.5554L8.11744 5.74981H8.35144V10.1328H7.04644ZM13.8843 10.1328V3.78781H18.2943V4.87681H15.2253V6.36181H18.0783V7.45981H15.2253V9.04381H18.2943V10.1328H13.8843ZM21.054 10.1328L18.804 3.78781H20.253L21.864 8.68381H21.477L23.232 3.78781H24.258L25.869 8.68381H25.509L27.219 3.78781H28.578L26.31 10.1328H25.167L23.61 5.62381H23.817L22.206 10.1328H21.054Z" fill="white"/>
-<defs>
-<linearGradient id="paint0_linear_1_1380" x1="0" y1="0" x2="-9.23926e-10" y2="15.9727" gradientUnits="userSpaceOnUse">
-<stop stopColor="#F58820"/>
-<stop offset="1" stopColor="#B02A30"/>
-</linearGradient>
-</defs>
+                    <path d="M0 0H36L32.25 7L36 14H0L3.75 7L0 0Z" fill="url(#paint0_linear_1_1380)"/>
+                    <path d="M7.04644 10.1328V3.78781H8.09044L11.5374 8.17081H11.2944V3.78781H12.5994V10.1328H11.5554L8.11744 5.74981H8.35144V10.1328H7.04644ZM13.8843 10.1328V3.78781H18.2943V4.87681H15.2253V6.36181H18.0783V7.45981H15.2253V9.04381H18.2943V10.1328H13.8843ZM21.054 10.1328L18.804 3.78781H20.253L21.864 8.68381H21.477L23.232 3.78781H24.258L25.869 8.68381H25.509L27.219 3.78781H28.578L26.31 10.1328H25.167L23.61 5.62381H23.817L22.206 10.1328H21.054Z" fill="white"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_1_1380" x1="0" y1="0" x2="-9.23926e-10" y2="15.9727" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#F58820"/>
+                    <stop offset="1" stopColor="#B02A30"/>
+                    </linearGradient>
+                    </defs>
                     </svg>
                 </div>
 
@@ -81,8 +82,8 @@ const Hero = () => {
 
             </div>
 
-        </div>
-        <div className="right pt-14 flex justify-center">
+       
+        <div className="right flex justify-center items-center md:-mt-16 mt-8  pl-8">
             
             <Image
             src="/cars/Car.svg"
@@ -90,6 +91,8 @@ const Hero = () => {
             height={400}
             alt="logo"
             />
+        </div>
+        </div>
         </div>
     </div>
   )

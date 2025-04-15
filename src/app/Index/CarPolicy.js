@@ -3,9 +3,9 @@ import React from 'react'
 const CarPolicy = () => {
   return (
     <div>
-        <h1 className='text-2xl title md:text-3xl xl:text-4xl text-center'>Things to keep in mind while buying a car insurance policy</h1>
+        <h1 className='text-2xl title md:text-3xl xl:text-4xl text-center my-5'>Things to keep in mind while buying a car insurance policy</h1>
 
-        <div className='grid md:grid-cols-2 grid-cols-1 gap-8 md:p-10 p-6'>
+        <div className='grid md:grid-cols-2 grid-cols-1 gap-8 md:py-10 p-6 max-w-[90rem] w-full mx-auto'>
             <div className='flex space-x-5 p-8 bg-white rounded-md'>
                 <div className='w-20 h-20'>
             <svg width="35" height="39" viewBox="0 0 35 39" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,8 +50,8 @@ const CarPolicy = () => {
             </svg>
             </div>
             <div>
-                <h3 className='text-sm font-semibold md:text-base'>Policy coverage</h3>
-                <p>Check the policy inclusions and exclusions thoroughly to know what’s covered and what’s not. Choose the right type of policy & coverage to ensure that you are well protected at the time of claim.</p>
+                <h3 className='text-sm font-semibold md:text-base'>Add-ons</h3>
+                <p>Add-ons come with great benefits at a nominal extra charge and each one of them serves a specific purpose. Evaluate them closely and pick the ones you need to cover your car against accidental damages reasonably.</p>
             </div>
 
             </div>
@@ -76,8 +76,8 @@ const CarPolicy = () => {
 
 
             <div>
-                <h3 className='text-sm font-semibold md:text-base'>Policy coverage</h3>
-                <p>Check the policy inclusions and exclusions thoroughly to know what’s covered and what’s not. Choose the right type of policy & coverage to ensure that you are well protected at the time of claim.</p>
+                <h3 className='text-sm font-semibold md:text-base'>Service benefits</h3>
+                <p>Availability of cashless garages, easy claims process and reliable customer support are a must.</p>
             </div>
 
             </div>
@@ -99,8 +99,8 @@ const CarPolicy = () => {
             </div>
 
             <div>
-                <h3 className='text-sm font-semibold md:text-base'>Policy coverage</h3>
-                <p>Check the policy inclusions and exclusions thoroughly to know what’s covered and what’s not. Choose the right type of policy & coverage to ensure that you are well protected at the time of claim.</p>
+                <h3 className='text-sm font-semibold md:text-base'>Right Insured Declared Value (IDV)</h3>
+                <p>While you can save on premium by choosing a lower IDV, it will serve you good at the time of claim if you get an IDV close to your car’s market value while buying the policy.</p>
             </div>
 
             </div>

@@ -12,14 +12,14 @@ const data = [
 
 function Premium() {
   return (
-    <div className='py-10 px-4 md:px-10'>
-      <h1 className='text-2xl md:text-3xl xl:text-4xl text-center pt-3 pb-10'>
+    <div className='py-10 px-4 md:px-8 max-w-[90rem] w-full mx-auto'>
+      <h1 className='text-2xl md:text-3xl xl:text-4xl text-center pt-3 pb-10 my-5'>
         How is car insurance premium calculated?
       </h1>
       <div className='w-full flex flex-col lg:flex-row lg:space-x-5'>
     
         <div className='flex flex-col w-full lg:w-1/2 space-y-5'>
-          <h3 className='text-lg font-semibold'>
+          <h3 className='text-lg font-semibold '>
             Your car insurance premium includes three major components:
           </h3>
 
@@ -34,11 +34,11 @@ function Premium() {
           </div>
 
 
-          <div className='mx-auto w-full overflow-x-auto rounded-2xl bg-white'>
+          <div className='mx-auto w-5/6 overflow-x-auto rounded-2xl bg-white ml-10'>
             <table className='w-full table-auto text-left border-separate border-spacing-0'>
               <thead>
                 <tr className='bg-[rgba(225,224,209,1)] text-black'>
-                  <th className='px-4 py-3 border-r border-gray-300 w-1/2'>Cubic capacity</th>
+                  <th className='px-4 py-3 border-r border-[#ECE9E9] w-1/2'>Cubic capacity</th>
                   <th className='px-4 py-3 w-1/2'>Premium (From 1st June 2022)</th>
                 </tr>
               </thead>
@@ -85,8 +85,8 @@ function Premium() {
           </h3>
 
           {data.map((item, index) => (
-            <div className='flex py-3 gap-4 items-start' key={index}>
-              <div className='w-9 h-7 shrink-0'>
+            <div className='flex py-3 gap-x-3 items-start' key={index}>
+              <div className='w-6 h-5 shrink-0 flex justify-center items-center'>
                 <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fillRule="evenodd" clipRule="evenodd" d="M9.99911 4.50319C9.99753 4.6489 9.95388 4.78818 9.87768 4.89211L6.96172 8.82209C6.88473 8.93352 6.77759 8.9978 6.66489 8.99994C6.55218 9.00209 6.44266 8.94316 6.36329 8.83602C6.28392 8.72887 6.23948 8.58209 6.24106 8.42995C6.24265 8.27781 6.28948 8.13316 6.37123 8.02923L8.57764 5.05497H0.422632C-0.140877 5.06568 -0.140877 3.9214 0.422632 3.93212H8.57685L6.37202 0.961065C6.29345 0.856066 6.249 0.712496 6.249 0.563568C6.249 0.413569 6.29265 0.269998 6.37123 0.164999C6.45059 0.0578568 6.55695 0 6.66727 0C6.77838 0 6.88473 0.061071 6.96251 0.167142L9.87848 4.09712C9.95784 4.20426 10.0023 4.35212 9.99991 4.50426" fill="#282828" />
                 </svg>

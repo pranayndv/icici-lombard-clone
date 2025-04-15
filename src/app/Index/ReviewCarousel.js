@@ -60,10 +60,10 @@ export default function ReviewCarousel() {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto text-center p-8">
-      <h2 className="text-3xl  font-semibold mb-2 text-[#282828]">Ratings and reviews</h2>
-      <div className="text-xl mb-6 flex justify-center items-center space-x-4">
-        <span className="flex space-x-2 items-center justify-center border-r-2 border-slate-300 pr-4"><span>4.6 </span>
+    <div className="max-w-6xl mx-auto text-center p-8 py-16">
+      <h2 className="text-3xl  font-semibold mb-3 text-[#282828]">Ratings and reviews</h2>
+      <div className="text-xl mb-6 flex justify-center items-center space-x-3 py-2">
+        <span className="flex space-x-2 items-center justify-center border-r-2 border-slate-300 pr-2"><span>4.6 </span>
         <Image src="/svgs/star.svg"
                   alt="star"
                         width={400}
@@ -71,7 +71,7 @@ export default function ReviewCarousel() {
                         className="w-auto"
                         />
          </span> 
-        <span className="text-start text-sm md:text-base"><h4>Our customers have rated us</h4><p className="text-gray-500"> Based on 456 reviews</p ></span>
+        <span className="text-start  text-base "><h4>Our customers have rated us</h4><p className="text-gray-500 text-sm"> Based on 456 reviews</p ></span>
       </div>
 
 
@@ -135,7 +135,7 @@ export default function ReviewCarousel() {
         ))}
       </div>
 
-      <div className="mt-6">
+      <div className="mt-12 mb-3">
         <button className="bg-white text-orange-500 border border-orange-500 hover:bg-orange-100 px-6 py-2 rounded-lg">
           Read all reviews
         </button>

@@ -12,8 +12,9 @@ const Navbar = () => {
 
   return (
     <div className='relative'>
-      <div className="top-navbar  bg-[#F8F6F6] text-[13px] flex lg:justify-between items-center  lg:px-10 py-1">
-        <div className="left py-1 flex lg:space-x-4 space-x-1 text-[13px] mx-2 md:mx-3 lg:mx-0">
+      <div className='flex justify-center items-center bg-[#F8F6F6]'>
+      <div className="top-navbar   text-[13px] flex lg:justify-between items-center  lg:px-10 py-1 max-w-[95rem] w-full">
+        <div className="left py-1 flex lg:space-x-4 space-x-1 text-[13px] mx-2 md:mx-3 lg:mx-0 ">
           <div className='flex items-center lg:px-3 px-1 space-x-3'>
           <svg width="30" height="18" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fillRule="evenodd" clipRule="evenodd" d="M14.9984 0.962891C10.5665 0.962891 6.96094 4.56847 6.96094 9.00032C6.96094 13.4322 10.5665 17.0378 14.9984 17.0378C19.4302 17.0378 23.0358 13.4322 23.0358 9.00032C23.0358 4.56847 19.4302 0.962891 14.9984 0.962891ZM15 18C10.0374 18 6 13.9626 6 9C6 4.03739 10.0374 0 15 0C19.9626 0 24 4.03739 24 9C24 13.9626 19.9626 18 15 18Z" fill="#282828"/>
@@ -81,8 +82,9 @@ const Navbar = () => {
         )}
 
       </div>
-    <div className="bottom-navbar bg-gradient-to-b from-[#F17D01] to-[#AE2120] py-3 px-6 text-white">
-      <div className="lg:flex  items-center lg:flex-row">
+      </div>
+    <div className="bottom-navbar bg-gradient-to-b from-[#F17D01] to-[#AE2120] py-3 px-6 text-white flex justify-center items-center">
+      <div className="lg:flex  items-center lg:flex-row max-w-[89rem] w-full">
     
         <div className="flex justify-between items-center w-full lg:w-auto">
         <Image
@@ -122,7 +124,10 @@ const Navbar = () => {
     </div>
   )}
 </button> */}
+<div className='lg:hidden'>
+
    <Hamburger toggled={menuOpen} toggle={setMenuOpen} />
+</div>
         </div>
 
         
