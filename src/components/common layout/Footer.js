@@ -8,7 +8,7 @@ import Image from "next/image"
 const Footer = () => {
   return (
     <div className="flex justify-center items-center flex-col">
-      <div className='flex justify-between pl-4 pr-12 items-center border-t-2 border-slate-200 text-sm max-w-[100rem] w-full'>
+      <div className='flex justify-between pl-5 pr-12 items-center border-t-2 border-slate-200 text-sm max-w-[100rem] w-full'>
       <div className='flex flex-wrap items-center md:px-9 py-4 md:space-x-6 space-x-2 '>
         <a href="#">Home</a>
         <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
