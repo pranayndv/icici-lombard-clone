@@ -4,7 +4,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='flex lg:flex-row flex-col  px-5 md:px-0  pt-14 '>
+    <div className='flex lg:flex-row flex-col mx-auto px-5 md:px-0  pt-14 '>
         <div className="left">
             
             <div className='space-y-3 text-center lg:text-start'>
