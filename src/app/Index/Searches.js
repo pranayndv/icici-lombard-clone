@@ -22,7 +22,7 @@ const Searches = () => {
                 alt="star"
               width={400}
               height={400}
-              className="w-auto"
+              className="w-auto xl:w-[290px]"
                                     />
             <div>
             <h2 className="text-4xl font-mulish font-[550] mb-7 text-[#282828] md:ml-2 md:text-start text-center my-3">Popular Searches</h2>

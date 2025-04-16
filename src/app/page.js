@@ -18,7 +18,7 @@ import Searches from "@/app/Index/Searches";
 export default function Home() {
   return (
     <div className="font-mulish ">
-    <div className="flex  xl:flex-row  flex-col xl:justify-center  lg:space-x-44 max-w-[89rem] mt-[6.5rem]  w-full mx-auto">
+    <div className="flex  xl:flex-row  flex-col xl:justify-center  lg:space-x-44 max-w-[89rem] mt-[6.5rem]  w-full mx-auto ">
       <Hero />
       <InsuranceForm/>
     </div>

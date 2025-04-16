@@ -8,8 +8,8 @@ const Details = () => {
             <h1 className='font-mulish font-[600] xl:text-4xl text-2xl '> Why our customers love us?</h1>
             <p className='text-[#575757]'>And, we think you will too.</p>
 
-            <div className='grid md:grid-cols-3 grid-cols-1 md:gap-x-5 gap-y-6'>
-                <div className='w-full  bg-white py-6 md:pr-24 md:pl-10 px-4  rounded-xl'>
+            <div className='grid md:grid-cols-3 grid-cols-1 md:gap-x-5 gap-y-6 w-full px-12'>
+                <div className='w-full  bg-white py-6 md:pr-24 md:pl-10 px-7  rounded-xl'>
                     <div className='flex space-x-5'>
                     <svg width="36" height="46" viewBox="0 0 36 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clipPath="url(#clip0_1_297)">
@@ -29,7 +29,7 @@ const Details = () => {
                     </div>
                 </div>
 
-                <div className='w-full  bg-white py-6 md:pr-24 md:pl-10 px-4  rounded-xl'>
+                <div className='w-full  bg-white py-6 md:pr-24 md:pl-10 px-7  rounded-xl'>
                     <div className='flex space-x-5'>
                     <svg width="32" height="48" viewBox="0 0 32 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_1_288)">
@@ -54,7 +54,7 @@ const Details = () => {
                 </div>
 
 
-                <div className='w-full  bg-white py-6 md:pr-24 md:pl-10 px-4  rounded-xl'>
+                <div className='w-full  bg-white py-6 md:pr-24 md:pl-10 px-7  rounded-xl'>
                     <div className='flex space-x-5'>
                     <svg width="32" height="48" viewBox="0 0 41 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M35.1637 26.9766V30.4388C35.1637 34.2643 31.6091 39.0942 26.2772 39.0942H22.7227" stroke="#004A80" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
