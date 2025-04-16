@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="flex justify-center items-center flex-col">
       <div className='flex justify-between pl-5 pr-12 items-center border-t-2 border-slate-200 text-sm max-w-[100rem] w-full'>
-      <div className='flex flex-wrap items-center md:px-9 py-4 md:space-x-6 space-x-2 '>
+      <div className='flex flex-wrap items-center md:px-9 py-[0.85rem] md:space-x-6 space-x-2 '>
         <a href="#">Home</a>
         <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path id="Fill 1" fillRule="evenodd" clipRule="evenodd" d="M0 8.89449L1.08468 10L4.9165 6.10134L6 4.99704L4.91532 3.89371L1.08468 0L1.04332 0.0434523L0.00118157 1.1055L3.82946 4.99704L0 8.89449Z" fill="#282828"/>
@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
 
 
-      <div className="footer bg-[#ECE9E9] p-14 w-full flex justify-center items-center ">
+      <div className="footer bg-[#ECE9E9] xl:h-[348px] p-[3.85rem] w-full flex justify-center items-center ">
         <div className="flex md:flex-row flex-col items-center md:space-x-16 space-y-4 max-w-[100rem] w-full">
         <div className='md:w-[100rem] '>
         <Image src="footerLogo.svg"

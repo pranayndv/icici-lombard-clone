@@ -2,13 +2,4 @@
 @import "tailwindcss";
 
 
-body {
-  font-family: 'Mulish', sans-serif;
-  letter-spacing: 0px;
 
-}
-.title {
-    font-family: 'Mulish', sans-serif;
-    letter-spacing: 0px;
-    font-weight: 530;
-}

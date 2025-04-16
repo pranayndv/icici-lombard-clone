@@ -4,11 +4,11 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='flex lg:flex-row flex-col mx-auto px-5 md:px-0  pt-14 '>
+    <div className='flex lg:flex-row flex-col mx-auto px-5 md:px-0  pt-20'>
         <div className="left">
             
             <div className='space-y-3 text-center lg:text-start'>
-            <h1 className='text-4xl font-bold text-[#282828]'>Car insurance</h1>
+            <h1 className='font-mulish font-[900] text-5xl text-[#282828]'>Car insurance</h1>
             <h2 className='text-2xl '>Prices starting at just ₹2,094/yr</h2>
             <p className='text-[#6C6C6C] text-sm'>This amount refers to the TP rates only</p>
             </div>

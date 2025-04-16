@@ -5,9 +5,9 @@ const Policies = () => {
   const [activeLink, setActiveLink] = useState("/General")
 
   return (
-    <div className=' bg-[#F8F6F6] pt-5 py-14'>
+    <div className=' bg-[#F8F6F6] pt-5 py-14 xl:h-[1439px]'>
         <div className='text-center mb-4'>
-        <h1 className='text-2xl md:text-3xl xl:text-4xl text-center py-6 my-4'>Get answers to common questions about car insurance policy</h1>
+        <h1 className='text-2xl md:text-3xl xl:text-4xl text-center py-6 my-4 font-mulish font-[550]'>Get answers to common questions about car insurance policy</h1>
       </div>
         <div className='md:p-4 p-2  sm:p-6 lg:px-32 max-w-[70rem] w-full mx-auto'>
  
@@ -70,7 +70,7 @@ const Policies = () => {
 
       {activeLink === "/General" && (
         <div className='px-5'>
-  <div className="flex gap-2 flex-col text-justify py-4">
+  <div className="flex gap-2 flex-col text-justify md:text-start py-4">
     <h2 className="font-mulish text-[16px] font-semibold">Why do I need to insure my car?</h2>
     <p className="font-mulish text-[16px]">
       In India, third-party car insurance is compulsory for all car owners. Moreover, own-damage car insurance covers you in case of accidents, theft and fire. In case of any untoward incident, you don’t have to pay out of pocket for repairs or replacement if you have a valid insurance policy.

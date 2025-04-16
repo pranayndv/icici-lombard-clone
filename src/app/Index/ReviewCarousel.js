@@ -60,8 +60,8 @@ export default function ReviewCarousel() {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto text-center p-8 py-16">
-      <h2 className="text-3xl  font-semibold mb-3 text-[#282828]">Ratings and reviews</h2>
+    <div className="max-w-6xl mx-auto text-center p-8 py-[5.60rem] xl:h-[681px]">
+      <h2 className="text-[2rem]  font-mulish font-[550] mb-3 text-[#282828]">Ratings and reviews</h2>
       <div className="text-xl mb-6 flex justify-center items-center space-x-3 py-2">
         <span className="flex space-x-2 items-center justify-center border-r-2 border-slate-300 pr-2"><span>4.6 </span>
         <Image src="/svgs/star.svg"

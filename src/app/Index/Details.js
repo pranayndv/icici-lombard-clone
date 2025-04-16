@@ -4,12 +4,12 @@ import Image from 'next/image'
 const Details = () => {
   return (
     <div className='flex justify-center flex-col items-center mt-7'>
-        <div className='section1 py-12  w-full bg-[#F8F6F6] flex flex-col justify-center items-center space-y-5'>
-            <h1 className='xl:text-4xl text-2xl title'> Why our customers love us?</h1>
+        <div className='section1 py-14  w-full bg-[#F8F6F6] flex flex-col justify-center items-center space-y-5 xl:h-[300px]'>
+            <h1 className='font-mulish font-[600] xl:text-4xl text-2xl '> Why our customers love us?</h1>
             <p className='text-[#575757]'>And, we think you will too.</p>
 
             <div className='grid md:grid-cols-3 grid-cols-1 md:gap-x-5 gap-y-6'>
-                <div className='w-full  bg-white py-4 md:pr-24 md:pl-10 px-4  rounded-xl'>
+                <div className='w-full  bg-white py-6 md:pr-24 md:pl-10 px-4  rounded-xl'>
                     <div className='flex space-x-5'>
                     <svg width="36" height="46" viewBox="0 0 36 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clipPath="url(#clip0_1_297)">
@@ -29,7 +29,7 @@ const Details = () => {
                     </div>
                 </div>
 
-                <div className='w-full  bg-white py-4 md:pr-24 md:pl-10 px-4  rounded-xl'>
+                <div className='w-full  bg-white py-6 md:pr-24 md:pl-10 px-4  rounded-xl'>
                     <div className='flex space-x-5'>
                     <svg width="32" height="48" viewBox="0 0 32 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_1_288)">
@@ -54,7 +54,7 @@ const Details = () => {
                 </div>
 
 
-                <div className='w-full  bg-white py-4 md:pr-24 md:pl-10 px-4  rounded-xl'>
+                <div className='w-full  bg-white py-6 md:pr-24 md:pl-10 px-4  rounded-xl'>
                     <div className='flex space-x-5'>
                     <svg width="32" height="48" viewBox="0 0 41 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M35.1637 26.9766V30.4388C35.1637 34.2643 31.6091 39.0942 26.2772 39.0942H22.7227" stroke="#004A80" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -74,7 +74,7 @@ const Details = () => {
             </div>
         </div>
 
-        <div className="section2 flex md:flex-row flex-col  max-w-[90%] md:space-x-20 space-y-10 py-14 justify-center items-center">
+        <div className="section2 flex md:flex-row flex-col xl:h-[399px]  max-w-[90%] md:space-x-20 space-y-10 py-[3.55rem] justify-center items-center">
           
             
             <Image
@@ -85,7 +85,7 @@ const Details = () => {
 />
           
             <div className="right px-5 md:px-0 space-y-4 md:pr-10 max-w-4xl w-full mx-auto text-center md:text-left">
-            <h1 className="xl:text-4xl text-2xl font-semibold title pb-3">
+            <h1 className="xl:text-4xl text-2xl pb-3 font-mulish font-[550]">
                 What is car insurance?
             </h1>
             <p className="text-[16px] text-justify md:text-left leading-relaxed">

@@ -14,9 +14,9 @@ const tags = [
 
 const Searches = () => {
   return (
-    <div className='bg-[#F8F6F6]  py-16 md:px-20 px-7 '>
+    <div className='bg-[#F8F6F6] xl:h-[381px]  py-12 md:px-14 px-7 '>
 
-        <div className='flex lg:flex-row flex-col  items-center space-x-12 max-w-[93rem] pl-28 w-full mx-auto'>
+        <div className='flex lg:flex-row flex-col  items-center space-x-12 max-w-[100rem] pl-28 w-full mx-auto'>
 
             <Image src="/svgs/search.svg"
                 alt="star"
@@ -25,12 +25,12 @@ const Searches = () => {
               className="w-auto"
                                     />
             <div>
-            <h2 className="text-4xl  mb-7 text-[#282828] md:ml-2 md:text-start text-center my-3">Popular Searches</h2>
-            <div className="flex flex-wrap gap-3">
+            <h2 className="text-4xl font-mulish font-[550] mb-7 text-[#282828] md:ml-2 md:text-start text-center my-3">Popular Searches</h2>
+            <div className="flex flex-wrap gap-2">
          {tags.map((tag, index) => (
           <span
             key={index}
-            className={`px-4 py-2 rounded-full text-sm font-medium bg-white hover:bg-[#FFF2EB] hover:shadow-sm`} >
+            className={`px-2 py-2 rounded-full text-sm font-medium bg-white hover:bg-[#FFF2EB] hover:shadow-sm`} >
             {tag}
           </span>
         ))}

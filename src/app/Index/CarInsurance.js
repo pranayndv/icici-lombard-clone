@@ -13,13 +13,13 @@ const CarInsurance = () => {
         {src:"/cars/Maruti_Ertiga.svg", title:"Maruti Baleno Car Insurance"},
     ]
   return (
-    <div className='bg-[#00305B] px-10 py-16'>
-           <h2 className="text-4xl mb-7 title text-white md:ml-2 text-center  my-3">Car Insurance for Popular Models in India</h2>
+    <div className='bg-[#00305B] xl:h-[381px] px-10 py-16'>
+           <h2 className="text-4xl mb-7 font-mulish font-[550] text-white md:ml-2 text-center  my-3">Car Insurance for Popular Models in India</h2>
 
            <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 max-w-[89rem] w-full mx-auto'>
             {data.map((item, index)=>{
                 return(
-                    <div key={index} className='bg-white rounded-md py-3 px-6 flex justify-center items-center space-x-4'>
+                    <div key={index} className='bg-white rounded-md h-[78px] py-2 px-6 flex justify-center items-center space-x-4'>
                      
                         <Image
                         src={item.src}

@@ -69,15 +69,15 @@ const faqItems = [
 
 const Faq = () => {
   return (
-    <div className="bg-[#00305B] py-16 px-4 md:px-10 text-white">
-      <h1 className="xl:text-4xl text-2xl text-center mb-8">
+    <div className="bg-[#00305B] py-[4.2rem] px-4 md:px-10 text-white xl:h-[883px]">
+      <h1 className="xl:text-4xl text-2xl text-center mb-8 font-mulish font-[550]">
         How to choose the right car insurance policy online?
       </h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[90rem] w-full mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[90rem] w-full mx-auto">
         {faqItems.map((item, index) => (
-          <div key={index} className="flex border border-[#065E9E] md:h-[260px] p-6 sm:p-8 rounded-lg h-full">
-            <div className="flex items-start pr-4 pt-2">{item.icon}</div>
+          <div key={index} className="flex border border-[#065E9E] md:h-[280px] p-6 sm:p-8 rounded-lg h-full">
+            <div className="flex items-start pr-5 pt-2">{item.icon}</div>
             <div className="space-y-2">
               <h3 className="font-semibold text-lg">{item.title}</h3>
               <p className="text-base">{item.desc}</p>
@@ -86,7 +86,7 @@ const Faq = () => {
         ))}
       </div>
 
-      <p className="text-sm md:text-base mt-10 max-w-[90rem] w-full mx-auto">
+      <p className="text-sm md:text-base mt-6 max-w-[90rem] w-full mx-auto">
         Before buying car insurance online, read the policy details and fine print, and ask questions to clarify anything you need help understanding. Regularly reviewing your car insurance policy can help ensure that it continues to meet your needs and that you&apos;re not overpaying for coverage you don&apos;t need.
       </p>
     </div>

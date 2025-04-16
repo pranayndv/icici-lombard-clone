@@ -16,9 +16,9 @@ const Inclusion = () => {
   const [activeLink, setActiveLink] = useState("/Inclusions")
 
   return (
-    <div className='p-4 sm:p-6 lg:p-16 max-w-[100rem] w-full mx-auto'>
-      <div className='text-center mb-4'>
-        <h1 className='text-2xl md:text-3xl xl:text-4xl '>What’s included and what’s not?</h1>
+    <div className='p-4 sm:p-6 lg:px-16 lg:py-[4.2rem] max-w-[100rem] w-full mx-auto xl:h-[607px]'>
+      <div className='text-center mb-9'>
+        <h1 className='text-2xl md:text-3xl xl:text-4xl font-mulish font-[550]'>What’s included and what’s not?</h1>
       </div>
 
       <ul className='border-b-2 border-[#C9C9C9] flex flex-wrap mb-6'>
@@ -45,7 +45,7 @@ const Inclusion = () => {
       </ul>
 
       {activeLink === "/Inclusions" && (
-        <div className='space-y-4 max-w-7xl  my-14 '>
+        <div className='space-y-4 max-w-7xl  my-[3.2rem] '>
           <h3 className='text-base font-semibold mb-4'>What’s included:</h3>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-10'>
             {titles.map((item, index) => (

@@ -2,11 +2,11 @@ import React from 'react'
 
 const CarPolicy = () => {
   return (
-    <div>
-        <h1 className='text-2xl title md:text-3xl xl:text-4xl text-center my-5'>Things to keep in mind while buying a car insurance policy</h1>
+    <div className='xl:h-[630px] pt-10 flex items-center flex-col justify-center'>
+        <h1 className='text-2xl font-mulish font-[550] md:text-3xl xl:text-4xl text-center my-5'>Things to keep in mind while buying a car insurance policy</h1>
 
-        <div className='grid md:grid-cols-2 grid-cols-1 gap-8 md:py-10 p-6 max-w-[90rem] w-full mx-auto'>
-            <div className='flex space-x-5 p-8 bg-white rounded-md'>
+        <div className='grid md:grid-cols-2 grid-cols-1 gap-8 md:py-12 p-6 max-w-[90rem] w-full mx-auto'>
+            <div className='flex space-x-5 p-8 md:h-[187px] bg-white rounded-md'>
                 <div className='w-20 h-20'>
             <svg width="35" height="39" viewBox="0 0 35 39" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_1_1103)">
@@ -30,7 +30,7 @@ const CarPolicy = () => {
 
             </div>
 
-            <div className='flex space-x-5 p-8 bg-white rounded-md'>
+            <div className='flex space-x-5 p-8 md:h-[187px] bg-white rounded-md'>
             <div className='w-20 h-20'>  
             <svg width="39" height="43" viewBox="0 0 39 43" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_1_1123)">
@@ -56,7 +56,7 @@ const CarPolicy = () => {
 
             </div>
 
-            <div className='flex space-x-5 p-8 bg-white rounded-md'>
+            <div className='flex space-x-5 p-8 md:h-[187px] bg-white rounded-md'>
             <div className='w-20 h-20'>
             <svg width="35" height="38" viewBox="0 0 35 38" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_1_1112)">
@@ -82,7 +82,7 @@ const CarPolicy = () => {
 
             </div>
 
-            <div className='flex space-x-5 p-8 bg-white rounded-md'>
+            <div className='flex space-x-5 p-8 md:h-[187px] bg-white rounded-md'>
             <div className='w-20 h-20'>
             <svg width="41" height="36" viewBox="0 0 41 36" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_1_1139)">

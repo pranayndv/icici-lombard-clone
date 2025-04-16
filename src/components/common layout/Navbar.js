@@ -11,9 +11,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
+    <div className='fixed top-0 z-50 w-full '>
     <div className='relative'>
-      <div className='flex justify-center items-center bg-[#F8F6F6]'>
-      <div className="top-navbar   text-[13px] flex lg:justify-between items-center  lg:px-10 py-1 max-w-[95rem] w-full">
+      <div className='flex justify-center items-center bg-[#F8F6F6] '>
+      <div className="top-navbar   text-[13px] flex lg:justify-between items-center xl:h-[44px] lg:px-10 py-2 max-w-[95rem] w-full">
         <div className="left py-1 flex lg:space-x-4 space-x-1 text-[13px] mx-2 md:mx-3 lg:mx-0 ">
           <div className='flex items-center lg:px-3 px-1 space-x-3'>
           <svg width="30" height="18" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -23,7 +24,7 @@ const Navbar = () => {
           <path d="M6.5 9.5H0.5" stroke="#282828" strokeLinecap="square"/>
           </svg>
 
-            <a href="Tel:18002666" className='text-[0.9rem]'>1800 2666</a>
+            <a href="Tel:18002666" className='text-[0.9rem] font-semibold'>1800 2666</a>
           </div>|
           <div className='flex items-center lg:px-3 px-1 lg:ml-3 ml-1  space-x-3 text-[13px]'>
           <svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,7 +84,7 @@ const Navbar = () => {
 
       </div>
       </div>
-    <div className="bottom-navbar bg-gradient-to-b from-[#F17D01] to-[#AE2120] py-3 px-6 text-white flex justify-center items-center">
+    <div className="bottom-navbar bg-gradient-to-b from-[#F17D01] to-[#AE2120] py-2 xl:h-[60px] px-6 text-white flex justify-center items-center">
       <div className="lg:flex  items-center lg:flex-row max-w-[89rem] w-full">
     
         <div className="flex justify-between items-center w-full lg:w-auto">
@@ -165,6 +166,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
     </div>
   );
