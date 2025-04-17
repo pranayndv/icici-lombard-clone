@@ -90,7 +90,7 @@ export default function ReviewCarousel() {
         {displayedReviews.map((r, i) => (
             <div
                 key={i}
-                className={`md:p-6 rounded-2xl text-left flex flex-col justify-between ${
+                className={`md:p-6 rounded-2xl text-left  flex flex-col justify-between ${
                 i === 1 ? "hidden lg:block" : ""
                 }`}
             >

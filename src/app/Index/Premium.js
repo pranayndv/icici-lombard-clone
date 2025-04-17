@@ -34,7 +34,7 @@ function Premium() {
           </div>
 
 
-          <div className='mx-auto w-5/6 overflow-x-auto rounded-2xl bg-white ml-10'>
+          <div className='mx-auto md:w-5/6 overflow-x-auto rounded-2xl bg-white md:ml-10'>
             <table className='w-full table-auto text-left border-separate border-spacing-0'>
               <thead>
                 <tr className='bg-[rgba(225,224,209,1)] text-black'>

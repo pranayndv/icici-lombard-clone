@@ -16,7 +16,7 @@ const Searches = () => {
   return (
     <div className='bg-[#F8F6F6] xl:h-[381px]  py-12 md:px-14 px-7 '>
 
-        <div className='flex lg:flex-row flex-col  items-center space-x-12 max-w-[100rem] pl-28 w-full mx-auto'>
+        <div className='flex lg:flex-row flex-col  items-center space-x-12 max-w-[100rem] lg:pl-28 w-full mx-auto'>
 
             <Image src="/svgs/search.svg"
                 alt="star"
