@@ -137,7 +137,7 @@ const Navbar = () => {
             menuOpen ? 'flex' : 'hidden'
           }`}
         >
-          <ul className="mx-0 lg:mx-7 space-y-3 lg:space-y-0 lg:space-x-3 flex flex-col lg:flex-row items-start lg:items-center text-base md:text-sm xl:text-base">
+          <ul className="mx-0 xl:mx-7 lg:mx-4 space-y-3 lg:space-y-0 xl:space-x-3 flex flex-col lg:flex-row items-start lg:items-center text-base md:text-[13px] xl:text-base">
             <li className="px-1"><Dropdown name="Car Insurance" color="white" /></li>
             <li className="px-1"><Dropdown name="Two Wheeler Insurance" color="white" /></li>
             <li className="px-1"><Dropdown name="Health Insurance" color="white" /></li>

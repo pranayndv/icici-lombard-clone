@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
 
 
-      <div className="footer bg-[#ECE9E9] xl:h-[348px] p-[3.85rem] w-full flex justify-center items-center ">
+      <div className="footer bg-[#ECE9E9] xl:h-[348px] md:p-[3.85rem] p-5 w-full flex justify-center items-center ">
         <div className="flex md:flex-row flex-col items-center md:space-x-16 space-y-4 max-w-[100rem] w-full">
         <div className='md:w-[100rem] '>
         <Image src="footerLogo.svg"

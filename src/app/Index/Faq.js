@@ -74,7 +74,7 @@ const Faq = () => {
         How to choose the right car insurance policy online?
       </h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[90rem] w-full mx-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 max-w-[90rem] w-full mx-auto">
         {faqItems.map((item, index) => (
           <div key={index} className="flex border border-[#065E9E] md:h-[280px] p-6 sm:p-8 rounded-lg h-full">
             <div className="flex items-start pr-5 pt-2">{item.icon}</div>
@@ -86,7 +86,7 @@ const Faq = () => {
         ))}
       </div>
 
-      <p className="text-sm md:text-base mt-6 max-w-[90rem] w-full mx-auto">
+      <p className="text-base mt-6 max-w-[90rem] w-full mx-auto">
         Before buying car insurance online, read the policy details and fine print, and ask questions to clarify anything you need help understanding. Regularly reviewing your car insurance policy can help ensure that it continues to meet your needs and that you&apos;re not overpaying for coverage you don&apos;t need.
       </p>
     </div>

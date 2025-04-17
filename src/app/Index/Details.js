@@ -8,7 +8,7 @@ const Details = () => {
             <h1 className='font-mulish font-[600] xl:text-4xl text-2xl '> Why our customers love us?</h1>
             <p className='text-[#575757]'>And, we think you will too.</p>
 
-            <div className='grid md:grid-cols-3 grid-cols-1 md:gap-x-5 gap-y-6 w-full px-12 max-w-[100rem]'>
+            <div className='grid xl:grid-cols-3  grid-cols-1 md:gap-x-5 gap-y-6 w-full md:px-12 px-5 max-w-[100rem]'>
                 <div className='w-full  bg-white py-6 md:pr-24 md:pl-10 px-7 xl:h-[99px]  rounded-xl'>
                     <div className='flex space-x-5'>
                     <svg width="36" height="46" viewBox="0 0 36 46" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -74,7 +74,7 @@ const Details = () => {
             </div>
         </div>
 
-        <div className="section2 flex md:flex-row flex-col xl:h-[399px]  max-w-[90%] md:space-x-20 space-y-10 py-[3.55rem] justify-center items-center">
+        <div className="section2 flex lg:flex-row flex-col xl:h-[399px]  max-w-[90%] lg:space-x-20 space-y-10 py-[3.55rem] justify-center items-center">
           
             
             <Image
@@ -84,7 +84,7 @@ const Details = () => {
                 alt="group"
 />
           
-            <div className="right px-5 md:px-0 space-y-4 md:pr-10 max-w-4xl w-full mx-auto text-center md:text-left">
+            <div className="right px-2 md:px-0 space-y-4 md:pr-10 max-w-4xl w-full mx-auto text-center md:text-left">
             <h1 className="xl:text-4xl text-2xl pb-3 font-mulish font-[550]">
                 What is car insurance?
             </h1>

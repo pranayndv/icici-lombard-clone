@@ -7,7 +7,7 @@ const Policies = () => {
   return (
     <div className=' bg-[#F8F6F6] pt-5 py-14 xl:h-[1439px]'>
         <div className='text-center mb-4'>
-        <h1 className='text-2xl md:text-3xl xl:text-4xl text-center py-6 my-4 font-mulish font-[550]'>Get answers to common questions about car insurance policy</h1>
+        <h1 className='text-2xl md:text-3xl xl:text-4xl text-center py-6 px-2 md:px-0 my-4 font-mulish font-[550]'>Get answers to common questions about car insurance policy</h1>
       </div>
         <div className='md:p-4 p-2  sm:p-6 lg:px-32 max-w-[70rem] w-full mx-auto'>
  

@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProductTable = () => {
   return (
-    <div className="mx-4 sm:mx-6 md:mx-10 lg:mx-auto max-w-[80rem]  overflow-x-auto rounded-2xl bg-white shadow-sm mb-24 mt-[50px]">
+    <div className="mx-4 sm:mx-6 md:mx-10 xl:mx-auto max-w-[80rem]  overflow-x-auto rounded-2xl bg-white shadow-sm mb-24 mt-[50px]">
       <table className="min-w-[700px] w-full table-auto text-left border-separate border-spacing-0">
         <thead>
           <tr className="bg-[rgba(225,224,209,1)] text-black text-sm sm:text-base">

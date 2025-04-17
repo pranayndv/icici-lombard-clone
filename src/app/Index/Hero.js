@@ -4,10 +4,10 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='flex lg:flex-row flex-col justify-center px-5 md:px-0  md:pt-20 pt-14'>
-        <div className="left">
+    <div className='flex lg:flex-row flex-col justify-center px-5 md:px-0  pt-12'>
+        <div className="left space-y-10 md:space-y-0">
             
-            <div className='space-y-3 '>
+            <div className='space-y-3 text-start sm:text-center lg:text-start'>
             <h1 className='font-mulish font-[900] text-5xl text-[#282828]'>Car insurance</h1>
             <h2 className='text-2xl '>Prices starting at just ₹2,094/yr</h2>
             <p className='text-[#6C6C6C] text-sm'>This amount refers to the TP rates only</p>
@@ -23,7 +23,7 @@ const Hero = () => {
             </defs>
             </svg>
 
-            <div className='flex md:flex-row flex-col  justify-center items-center'>
+            <div className='flex lg:flex-row flex-col  justify-center items-center'>
             <div >
 
                 <div className='flex rounded-l-md items-center space-x-4 py-2 pl-4 pr-8 mt-5 bg-gradient-to-r from-[#FFF2EB] via-[#FFF7F2] to-white'>
@@ -83,7 +83,7 @@ const Hero = () => {
             </div>
 
        
-        <div className="right flex justify-center items-center md:-mt-16 mt-8  md:pl-8">
+        <div className="right flex justify-center items-center lg:-mt-16 mt-8  md:pl-8">
             
             <Image
             src="/cars/Car.svg"

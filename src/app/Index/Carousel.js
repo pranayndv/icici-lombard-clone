@@ -21,14 +21,24 @@ const slides = [
     image: "/svgs/insurance.svg",
     title: "Comprehensive car insurance policy 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsum eum explicabo nemo possimus ipsam voluptatibus, dolore cum tempora adipisci! Ad est laboriosam possimus optio tempora minima vel debitis hic ab id ex, nisi et doloremque.",
+    (<>
+      <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates maiores sunt voluptatum, praesentium culpa numquam tempore nostrum repudiandae facilis reprehenderit cumque eius vel nam. Possimus, deserunt quaerat iure consequuntur ad necessitatibus corrupti libero saepe ab soluta rem, atque fuga pariatur.
+      </span>
+      <span>
+      Comprehensive car insurance covers damage caused by natural disasters, accidents, theft, fire, and other such incidents. It covers damages to both your vehicle and third-party vehicles and property. This car insurance policy also covers third-party liabilities, which will cover any legal costs or compensation you may be liable for in case of an accident caused due to your fault. In addition, some comprehensive policies also offer additional benefits such as roadside assistance, towing service and more. Even though comprehensive insurance policies tend to be more expensive than Third-Party Liability or Standalone Own Damage policies, but they offer broader coverage.
+      </span></>),
   },
   {
     id: 3,
     image: "/svgs/insurance.svg",
     title: "Comprehensive car insurance policy 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore, ea itaque suscipit at odit ab aspernatur pariatur molestias quod a impedit sit esse. Voluptatibus, dolore cum tempora adipisci!",
+    (<>
+      <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos maiores maxime nesciunt doloremque harum voluptatibus reiciendis obcaecati officia, id aut deserunt. Dolores molestias ipsum at non culpa velit veritatis enim eius ab deserunt sunt quod ea quae, laudantium porro modi.
+      </span>
+      <span>
+      Comprehensive car insurance covers damage caused by natural disasters, accidents, theft, fire, and other such incidents. It covers damages to both your vehicle and third-party vehicles and property. This car insurance policy also covers third-party liabilities, which will cover any legal costs or compensation you may be liable for in case of an accident caused due to your fault. In addition, some comprehensive policies also offer additional benefits such as roadside assistance, towing service and more. Even though comprehensive insurance policies tend to be more expensive than Third-Party Liability or Standalone Own Damage policies, but they offer broader coverage.
+      </span></>),
   },
 ];
 
@@ -47,23 +57,23 @@ const Carousel = () => {
 
   return (
     <div className="bg-[#FFF2EB] py-14 px-4 sm:px-6 lg:px-12 xl:h-[565px]">
-      <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center font-mulish font-[550] mb-8">
+      <h1 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl text-center font-mulish font-[550] mb-8">
         What are the different types of car insurance policies?
       </h1>
 
       <div className="relative max-w-7xl mx-auto bg-white rounded-2xl p-6 sm:p-10 ">
       
-        <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
+        <div className="flex flex-col lg:flex-row gap-6 items-center lg:items-start">
                      <Image
                       src={slides[currentIndex].image}
                       alt={slides[currentIndex].title}
                       width={400}
                       height={400}
-                       className="w-full sm:w-auto rounded-lg object-contain mx-auto md:mx-5 "
+                       className="w-full sm:w-auto rounded-lg object-contain mx-auto lg:mx-5 "
                       />
 
-          <div className="flex-1 text-left md:px-8">
-            <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2">
+          <div className="flex-1 text-left lg:px-8">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold mb-2">
               {slides[currentIndex].title}
             </h2>
             <p className="text-gray-700 text-sm sm:text-base leading-relaxed flex flex-col space-y-2 ">
@@ -74,7 +84,7 @@ const Carousel = () => {
 
 
         <button
-          className="hidden md:flex absolute -left-6 lg:-left-14 top-1/2 -translate-y-1/2 bg-white p-3 rounded-full border border-[#CBCDCE] shadow hover:bg-white/80 transition"
+          className="hidden lg:flex absolute -left-6 lg:-left-14 top-1/2 -translate-y-1/2 bg-white p-3 rounded-full border border-[#CBCDCE] shadow hover:bg-white/80 transition"
           onClick={prevSlide}
         >
           <svg
@@ -94,7 +104,7 @@ const Carousel = () => {
         </button>
 
         <button
-          className="hidden md:flex absolute -right-6 lg:-right-14 top-1/2 -translate-y-1/2 bg-[#EC6625] p-3 rounded-full hover:bg-[#EC6625]/80 transition shadow"
+          className="hidden lg:flex absolute -right-6 lg:-right-14 top-1/2 -translate-y-1/2 bg-[#EC6625] p-3 rounded-full hover:bg-[#EC6625]/80 transition shadow"
           onClick={nextSlide}
         >
           <svg
@@ -115,7 +125,7 @@ const Carousel = () => {
       </div>
 
 
-      <div className="flex md:hidden justify-center gap-6 mt-6">
+      <div className="flex lg:hidden justify-center gap-6 mt-6">
         <button
           onClick={prevSlide}
           className="bg-white border border-[#CBCDCE] p-2 rounded-full shadow"
