@@ -9,7 +9,12 @@ const slides = [
     image: "/svgs/insurance.svg",
     title: "Comprehensive car insurance policy ",
     description:
-      "Comprehensive car insurance, also known as a private car package policy, is a type of auto insurance that provides complete coverage for your vehicle. It is an optional car insurance policy but is highly recommended for car owners who want the best protection for their four-wheelers.Comprehensive car insurance, also known as a private car package policy, is a type of auto insurance that provides complete coverage for your vehicle. It is an optional car insurance policy but is highly recommended for car owners who want the best protection for their four-wheelers.Comprehensive car insurance covers damage caused by natural disasters, accidents, theft, fire, and other such incidents. It covers damages to both your vehicle and third-party vehicles and property. This car insurance policy also covers third-party liabilities, which will cover any legal costs or compensation you may be liable for in case of an accident caused due to your fault. In addition, some comprehensive policies also offer additional benefits such as roadside assistance, towing service and more. Even though comprehensive insurance policies tend to be more expensive than Third-Party Liability or Standalone Own Damage policies, but they offer broader coverage.",
+      (<>
+      <span>Comprehensive car insurance, also known as a private car package policy, is a type of auto insurance that provides complete coverage for your vehicle. It is an optional car insurance policy but is highly recommended for car owners who want the best protection for their four-wheelers.
+      </span>
+      <span>
+      Comprehensive car insurance covers damage caused by natural disasters, accidents, theft, fire, and other such incidents. It covers damages to both your vehicle and third-party vehicles and property. This car insurance policy also covers third-party liabilities, which will cover any legal costs or compensation you may be liable for in case of an accident caused due to your fault. In addition, some comprehensive policies also offer additional benefits such as roadside assistance, towing service and more. Even though comprehensive insurance policies tend to be more expensive than Third-Party Liability or Standalone Own Damage policies, but they offer broader coverage.
+      </span></>),
   },
   {
     id: 2,
@@ -57,11 +62,11 @@ const Carousel = () => {
                        className="w-full sm:w-auto rounded-lg object-contain mx-auto md:mx-5 "
                       />
 
-          <div className="flex-1 text-left md:px-6">
+          <div className="flex-1 text-left md:px-8">
             <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2">
               {slides[currentIndex].title}
             </h2>
-            <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
+            <p className="text-gray-700 text-sm sm:text-base leading-relaxed flex flex-col space-y-2 ">
               {slides[currentIndex].description}
             </p>
           </div>

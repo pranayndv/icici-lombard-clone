@@ -41,7 +41,7 @@ const InsuraceTable = () => {
           </table>
         </div>
 
-        <div className='py-4  space-y-3 text-justify md:text-start max-w-[90rem] w-5/6 mx-auto'>
+        <div className='py-2  space-y-3 text-justify md:text-start max-w-[90rem] w-5/6 mx-auto'>
             <p>
             Comprehensive car insurance is a more comprehensive policy that covers not only third-party liabilities but also damage to your own vehicle. On the other hand, third-party car insurance only covers legal liabilities in case of an accident. Comprehensive car insurance also offers add-ons like zero depreciation and roadside assistance, whereas third-party insurance only includes mandatory coverage as per law.
             </p>

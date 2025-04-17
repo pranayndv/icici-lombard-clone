@@ -30,7 +30,7 @@ const Searches = () => {
          {tags.map((tag, index) => (
           <span
             key={index}
-            className={`px-2 py-2 rounded-full text-sm font-medium bg-white hover:bg-[#FFF2EB] hover:shadow-sm`} >
+            className={`px-[11px] py-2 rounded-full text-sm font-medium bg-white hover:bg-[#FFF2EB] hover:shadow-sm`} >
             {tag}
           </span>
         ))}

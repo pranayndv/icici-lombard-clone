@@ -12,13 +12,13 @@ const data = [
 
 function Premium() {
   return (
-    <div className='py-4 px-4 md:px-8 max-w-[90rem] w-full mx-auto xl:h-[735px]'>
-      <h1 className='text-2xl md:text-3xl xl:text-4xl text-center pt-3 pb-10 my-3 font-mulish font-[550]'>
+    <div className='py-5 px-4 md:px-8 max-w-[90rem] w-full mx-auto xl:h-[735px]'>
+      <h1 className='text-2xl md:text-3xl xl:text-4xl text-center pt-3 pb-14 my-3 font-mulish font-[550]'>
         How is car insurance premium calculated?
       </h1>
       <div className='w-full flex flex-col lg:flex-row lg:space-x-5'>
     
-        <div className='flex flex-col w-full lg:w-1/2 space-y-5'>
+        <div className='flex flex-col w-full lg:w-1/2 space-y-4'>
           <h3 className='text-lg font-semibold '>
             Your car insurance premium includes three major components:
           </h3>

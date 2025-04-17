@@ -70,7 +70,7 @@ const faqItems = [
 const Faq = () => {
   return (
     <div className="bg-[#00305B] py-[4.2rem] px-4 md:px-10 text-white xl:h-[883px]">
-      <h1 className="xl:text-4xl text-2xl text-center mb-8 font-mulish font-[550]">
+      <h1 className="xl:text-4xl text-2xl text-center mb-10 font-mulish font-[550]">
         How to choose the right car insurance policy online?
       </h1>
 
